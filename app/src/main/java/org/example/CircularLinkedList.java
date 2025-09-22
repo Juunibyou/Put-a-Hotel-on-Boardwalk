@@ -44,7 +44,7 @@ public class CircularLinkedList<T> {
         int roll2 = (int)(Math.random() * 6) + 1;
         int rolltotal = roll1 + roll2;
 
-        System.out.println("You have rolled: '" + roll1 + "' and '" + roll2 + "' = '" + rolltotal);
+        System.out.println("You have rolled: '" + roll1 + "' and '" + roll2 + "' = '" + rolltotal +"'");
 
         for(int i = 0; i < rolltotal; i++){
             step();
