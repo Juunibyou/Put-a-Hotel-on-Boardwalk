@@ -29,7 +29,7 @@ public class App {
  
     System.out.println(monopolyBoard.currentNode); // This should print "Income Tax" to the console
  
-    for(int i = 0; i < 37 i++) {
+    for(int i = 0; i < 37; i++) {
         monopolyBoard.step();
     }
  
